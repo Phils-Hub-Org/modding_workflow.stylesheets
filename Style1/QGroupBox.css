@@ -1,0 +1,30 @@
+QGroupBox {
+    background-color: #2e2e2e;        /* Dark gray background */
+    border: 1px solid #5b5e60;        /* Light gray border */
+    border-radius: 4px;               /* Rounded corners */
+    margin-top: 15px;                 /* Space above the group box */
+    padding-top: 0px;                    /* Padding inside the group box */
+    color: #ffffff;                   /* White text for the title */
+    font-weight: bold;                /* Bold title text */
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;    /* Position the title at the top left */
+    background-color: transparent;    /* Transparent background for the title */
+    padding: 0 5px;                   /* Padding around the title */
+    color: #ffffff;                   /* White text for the title */
+}
+
+QGroupBox::title:hover {
+    color: #4a90e2;                   /* Light blue title on hover */
+}
+
+QGroupBox:flat {
+    border: none;                     /* No border when the group box is flat */
+}
+
+QGroupBox:disabled {
+    color: #777777;                   /* Lighter gray text for disabled group box */
+    border-color: #5b5e60;            /* Keep the light gray border */
+}

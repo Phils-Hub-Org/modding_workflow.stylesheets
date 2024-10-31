@@ -1,0 +1,26 @@
+QListWidget {
+    background-color: #2e2e2e;      /* Dark gray background */
+    color: #ffffff;                 /* White text */
+    border: 1px solid #5b5e60;      /* Light gray border */
+    padding: 4px;                   /* Padding around the list */
+}
+
+QListWidget::item {
+    background-color: transparent;  /* Transparent background for items */
+    color: #ffffff;                 /* White text for list items */
+    border: none;                   /* No border for list items */
+}
+
+QListWidget::item:selected {
+    background-color: #4a90e2;      /* Light blue background when selected */
+    color: #ffffff;                 /* Ensure text remains white when selected */
+}
+
+QListWidget::item:hover {
+    background-color: #3d78b2;      /* Darker blue on hover */
+    color: #ffffff;                 /* Ensure text remains white when hovered */
+}
+
+QListWidget::item:focus {
+    border: 1px solid #4a90e2;      /* Light blue border on focus */
+}

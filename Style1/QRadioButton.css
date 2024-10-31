@@ -1,0 +1,32 @@
+QRadioButton {
+    color: #ffffff;              /* White text */
+    spacing: 5px;                /* Space between radio button and label */
+}
+
+QRadioButton::indicator {
+    width: 14px;                 /* Size of the radio button */
+    height: 14px;
+    background-color: #2e2e2e;   /* Dark gray background for the indicator */
+    border: 1px solid #5b5e60;   /* Light gray border */
+    border-radius: 8px;          /* Circular radio button */
+}
+
+QRadioButton::indicator:hover {
+    background-color: #4a90e2;   /* Light blue on hover */
+    border-color: #3d78b2;       /* Darker blue border on hover */
+}
+
+QRadioButton::indicator:checked {
+    background-color: #4a90e2;   /* Light blue when checked */
+    border-color: #3d78b2;       /* Darker blue border when checked */
+}
+
+QRadioButton::indicator:pressed {
+    background-color: #3d78b2;   /* Darker blue on press */
+    border-color: #2a5f92;       /* Even darker border on press */
+}
+
+QRadioButton::indicator:checked:pressed {
+    background-color: #3d78b2;   /* Darker blue when checked and pressed */
+    border-color: #2a5f92;       /* Even darker border when checked and pressed */
+}

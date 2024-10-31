@@ -1,0 +1,42 @@
+QTabBar::tab {
+    background-color: #3c3f41;      /* Dark gray background for tabs */
+    color: #ffffff;                 /* White text for tabs */
+    border-left: 1px solid #5b5e60;      /* Light gray border around tabs */
+    border-top: 1px solid #5b5e60;
+    border-right: 1px solid #5b5e60;
+    padding: 4px 8px;              /* Padding for each tab */
+    margin-left: 2px;                    /* Slight margin between tabs */
+    margin-right: 2px;
+    border-top-left-radius: 4px;    /* Rounded top corners */
+    border-top-right-radius: 4px;   /* Rounded top corners */
+}
+
+QTabBar::tab:selected {
+    background-color: #4a90e2;      /* Light blue background for selected tab */
+    color: #ffffff;                 /* White text for selected tab */
+    border-color: #4a90e2;          /* Blue border for selected tab */
+}
+
+QTabBar::tab:hover {
+    background-color: #3d78b2;      /* Darker blue on hover */
+    color: #ffffff;                 /* White text */
+}
+
+QTabBar::tab:disabled {
+    background-color: #2e2e2e;      /* Dark gray for disabled tab */
+    color: #777777;                 /* Light gray text for disabled tabs */
+}
+
+QTabBar::tab:focus {
+    border: 1px solid #4a90e2;      /* Blue border when tab is focused */
+}
+
+QTabBar::close-button {
+    /* image: url(close-icon.png);     Replace with your close icon path */
+    subcontrol-position: right;     /* Position the close button on the right */
+    margin: 0 8px 0 0;              /* Spacing for the close button */
+}
+/*
+QTabBar::close-button:hover {
+    image: url(close-icon-hover.png);   Change icon on hover 
+}*/

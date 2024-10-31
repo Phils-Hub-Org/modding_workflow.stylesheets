@@ -1,0 +1,20 @@
+QGraphicsView {
+    background-color: #2e2e2e;  /* Dark gray background */
+    border: 1px solid #5b5e60;  /* Light gray border */
+    border-radius: 4px;         /* Rounded corners */
+}
+
+QGraphicsView:focus {
+    border-color: #4a90e2;      /* Light blue border when focused */
+    background-color: #333333;  /* Slightly lighter gray background on focus */
+}
+
+QGraphicsView:disabled {
+    background-color: #2e2e2e;  /* Dark gray background when disabled */
+    border-color: #5b5e60;      /* Light gray border for disabled state */
+    color: #777777;             /* Lighter gray for disabled text or content */
+}
+
+QGraphicsView::viewport {
+    background-color: #2e2e2e;  /* Dark gray background for the viewport */
+}

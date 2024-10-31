@@ -1,0 +1,21 @@
+QMenuBar {
+    background-color: #2e2e2e;    /* Dark gray background */
+    color: #ffffff;               /* White text */
+    border-bottom: 1px solid #5b5e60;  /* Light gray border for separation */
+}
+
+QMenuBar::item {
+    background-color: transparent; /* Transparent background */
+    padding: 6px 6px;             /* Padding for menu items */
+    color: #ffffff;                /* White text */
+}
+
+QMenuBar::item:selected {          /* Hovered menu item */
+    background-color: #4a90e2;     /* Light blue on hover */
+    color: #ffffff;                /* Ensure text remains white */
+}
+
+QMenuBar::item:pressed {           /* Pressed menu item */
+    background-color: #3d78b2;     /* Darker blue on press */
+    color: #ffffff;                /* Ensure text remains white */
+}

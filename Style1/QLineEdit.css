@@ -1,0 +1,11 @@
+QLineEdit {
+    background-color: #2e2e2e;  /* Dark gray background for input fields */
+    color: #ffffff;             /* White text */
+    border: 1px solid #5b5e60;  /* Light gray border */
+    border-radius: 4px;         /* Rounded corners */
+}
+
+QLineEdit:focus {
+    border-color: #4a90e2;      /* Light blue border when focused */
+    background-color: #333333;  /* Slightly lighter gray on focus */
+}

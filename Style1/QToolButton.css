@@ -1,0 +1,44 @@
+QToolButton {
+    background-color: #3c3f41;    /* Dark gray background */
+    color: #ffffff;               /* White text/icon */
+    border: 1px solid #5b5e60;    /* Light gray border */
+    border-radius: 4px;           /* Rounded corners */
+    padding: 0px 0px;            /* Padding for comfortable button size */
+}
+
+QToolButton:hover {
+    background-color: #4a90e2;    /* Light blue background on hover */
+    border-color: #3d78b2;        /* Darker blue border on hover */
+}
+
+QToolButton:pressed {
+    background-color: #3d78b2;    /* Darker blue background on press */
+    border-color: #2a5f92;        /* Even darker border when pressed */
+}
+
+QToolButton:checked {
+    background-color: #3d78b2;    /* Darker blue when checked */
+    border-color: #2a5f92;        /* Border color when checked */
+}
+
+QToolButton:disabled {
+    background-color: #2e2e2e;    /* Dark gray when disabled */
+    color: #777777;               /* Lighter gray text/icon for disabled state */
+    border-color: #5b5e60;        /* Keep the border color same as normal state */
+}
+
+QToolButton::menu-button {
+    background-color: #3c3f41;      /* Dark gray background for menu button */
+    border: 1px solid #5b5e60;      /* Light gray border for menu button */
+    padding: 4px;                   /* Padding for the menu button */
+}
+
+QToolButton::menu-button:hover {
+    background-color: #4a90e2;      /* Light blue on hover */
+    border-color: #3d78b2;          /* Darker blue border on hover */
+}
+
+QToolButton::menu-button:pressed {
+    background-color: #3d78b2;      /* Darker blue on press */
+    border-color: #2a5f92;          /* Even darker border on press */
+}
