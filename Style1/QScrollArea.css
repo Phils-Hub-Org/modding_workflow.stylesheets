@@ -1,24 +1,18 @@
-/* This covers around the outter edge, like 2-3px maybe */
 QScrollArea {
-    background-color: #2e2e2e;  /* Dark gray background */
-    border: 1px solid #5b5e60;  /* Light gray border */
-    border-radius: 4px;         /* Rounded corners */
-    padding: 5px;               /* Padding inside the scroll area */
+    background-color: #2e2e2e;
+    border: 1px solid #5b5e60;
+    border-radius: 4px;
+    padding: 5px;
 }
 
-/* Alternatively, this may also target the viewport more directly
-This covers the whole area, including above/below the scrollbar */
 QScrollArea QWidget {
-    background-color: #2e2e2e;          /* Ensures all content within is black */
+    background-color: #2e2e2e;
 }
 
-/* QScrollArea Viewport
-This covers above/below the scrollbar */
 QScrollArea > QWidget {
-    background-color: #2e2e2e;          /* Background of the viewport widget */
+    background-color: #2e2e2e;
 }
 
-/* Scroll Corner (the area between horizontal and vertical scroll bars) */
 QScrollArea::corner {
-    background-color: #2e2e2e;  /* Dark gray to match the overall scroll area */
+    background-color: #2e2e2e;
 }
