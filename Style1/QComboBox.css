@@ -1,64 +1,64 @@
 QComboBox {
-    background-color: #2e2e2e;       /* Dark gray background */
-    color: #ffffff;                  /* White text */
-    border: 1px solid #5b5e60;       /* Light gray border */
-    border-radius: 4px;              /* Rounded corners */
-    padding-left: 2px;                    /* Padding inside the combo box */
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #5b5e60;
+    border-radius: 4px;
+    padding-left: 2px;
 }
 
 QComboBox:hover {
-    background-color: #3a3a3a;       /* Slightly lighter gray on hover */
-    border-color: #4a90e2;           /* Light blue border on hover */
+    background-color: #3a3a3a;
+    border-color: #4a90e2;
 }
 
 QComboBox:focus {
-    background-color: #333333;       /* Lighter gray on focus */
-    border-color: #4a90e2;           /* Light blue border on focus */
+    background-color: #333333;
+    border-color: #4a90e2;
 }
 
 QComboBox::drop-down {
     subcontrol-origin: padding;
     subcontrol-position: top right;
-    width: 30px;                      /* Width of the drop-down button */
-    background-color: #2e2e2e;        /* Dark gray background for drop-down */
-    border-left: 1px solid #5b5e60;   /* Light gray separator between drop-down button and combo box */
+    width: 30px;
+    background-color: #2e2e2e;
+    border-left: 1px solid #5b5e60;
 }
 
 QComboBox::down-arrow {
-    image: url(:/888EAC-20px/ICONS/888EAC-20px/arrow-down.svg);  /*Replace with your down arrow icon */
-    width: 12px;                         /* Width of the arrow */
-    height: 12px;                        /* Height of the arrow */
+    image: url(:/888EAC-20px/ICONS/888EAC-20px/arrow-down.svg);
+    width: 12px;
+    height: 12px;
 }
 
 QComboBox::down-arrow:hover {
-    image: url(:/888EAC-20px/ICONS/888EAC-20px/arrow-down.svg); /* Optional: different icon on hover */
+    image: url(:/888EAC-20px/ICONS/888EAC-20px/arrow-down.svg);
 }
 
 QComboBox QAbstractItemView {
-    background-color: #2e2e2e;        /* Dark gray background for drop-down list */
-    color: #ffffff;                   /* White text */
-    border: 1px solid #5b5e60;        /* Light gray border around the list */
-    selection-background-color: #4a90e2;  /* Light blue background for selected item */
-    selection-color: #ffffff;         /* White text for selected item */
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #5b5e60;
+    selection-background-color: #4a90e2;
+    selection-color: #ffffff;
 }
 
 QComboBox QAbstractItemView::item {
-    background-color: transparent;    /* Transparent background for list items */
-    padding: 6px;                     /* Padding for each item in the list */
+    background-color: transparent;
+    padding: 6px;
 }
 
 QComboBox QAbstractItemView::item:selected {
-    background-color: #4a90e2;        /* Light blue when an item is selected */
-    color: #ffffff;                   /* White text for selected item */
+    background-color: #4a90e2;
+    color: #ffffff;
 }
 
 QComboBox QAbstractItemView::item:hover {
-    background-color: #3d78b2;        /* Darker blue on hover */
-    color: #ffffff;                   /* White text when hovered */
+    background-color: #3d78b2;
+    color: #ffffff;
 }
 
 QComboBox:disabled {
-    background-color: #2e2e2e;        /* Dark gray background when disabled */
-    color: #777777;                   /* Lighter gray text when disabled */
-    border-color: #5b5e60;            /* Keep the light gray border */
+    background-color: #2e2e2e;
+    color: #777777;
+    border-color: #5b5e60;
 }
