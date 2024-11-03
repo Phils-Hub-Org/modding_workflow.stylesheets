@@ -1,45 +1,44 @@
 QMenu {
-    background-color: #2e2e2e;     /* Dark gray background for menus */
-    border: 1px solid #5b5e60;     /* Light gray border */
+    background-color: #2e2e2e;
+    border: 1px solid #5b5e60;
 }
 
 QMenu::item {
-    background-color: transparent; /* Transparent background for menu items */
-    color: #ffffff;                /* White text */
-	padding: 6px;
-    margin-left: 6px;             /* Padding for each menu item */
+    background-color: transparent;
+    color: #ffffff;
+    padding: 6px;
+    margin-left: 6px;
 }
 
-QMenu::item:selected {             /* Hovered menu item */
-    background-color: #4a90e2;     /* Light blue background on hover */
-    color: #ffffff;                /* Ensure text remains white */
+QMenu::item:selected {
+    background-color: #4a90e2;
+    color: #ffffff;
 }
 
-QMenu::item:pressed {              /* Pressed menu item */
-    background-color: #3d78b2;     /* Darker blue background on press */
-    color: #ffffff;                /* Ensure text remains white */
+QMenu::item:pressed {
+    background-color: #3d78b2;
+    color: #ffffff;
 }
 
 QMenu::separator {
     height: 1px;
-    background-color: #5b5e60;     /* Light gray separator between items */
+    background-color: #5b5e60;
 }
 
-/* QMenu::indicator (checkboxes and radio buttons in menus) */
 QMenu::indicator {
     width: 16px;
     height: 16px;
-    background-color: #2e2e2e;     /* Dark gray background for indicators */
-    border: 1px solid #5b5e60;     /* Light gray border */
-    border-radius: 2px;            /* Slightly rounded corners */
+    background-color: #2e2e2e;
+    border: 1px solid #5b5e60;
+    border-radius: 2px;
 }
 
 QMenu::indicator:checked {
-    background-color: #4a90e2;     /* Light blue when checked */
-    border-color: #3d78b2;         /* Darker blue border when checked */
+    background-color: #4a90e2;
+    border-color: #3d78b2;
 }
 
 QMenu::indicator:unchecked {
-    background-color: #2e2e2e;     /* Keep the dark gray when unchecked */
-    border-color: #5b5e60;         /* Light gray border when unchecked */
+    background-color: #2e2e2e;
+    border-color: #5b5e60;
 }
