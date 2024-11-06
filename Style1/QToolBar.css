@@ -1,24 +1,24 @@
 QToolBar {
-    background-color: #2e2e2e;      /* Dark gray background */
-    border: 1px solid #5b5e60;      /* Light gray border */
-    padding: 4px;                   /* Padding inside the toolbar */
-    spacing: 4px;                   /* Spacing between toolbar buttons */
+    background-color: #2e2e2e;
+    border: 1px solid #5b5e60;
+    padding: 4px;
+    spacing: 4px;
 }
 
 QToolBar::handle {
-    background-color: #5b5e60;      /* Light gray handle for draggable toolbars */
-    width: 10px;                    /* Width of the handle */
-	height: 10px;
-    margin: 4px;                    /* Margin around the handle */
+    background-color: #5b5e60;
+    width: 10px;
+    height: 10px;
+    margin: 4px;
 }
 
 QToolBar::separator {
-    background-color: #5b5e60;      /* Light gray for separators */
-    width: 1px;                     /* Thickness of the separator */
-    height: 24px;                   /* Height of the separator */
-    margin: 6px;                    /* Space around the separator */
+    background-color: #5b5e60;
+    width: 1px;
+    height: 24px;
+    margin: 6px;
 }
 
 QToolBar::item {
-    padding: 4px;                   /* Padding for individual toolbar items */
+    padding: 4px;
 }

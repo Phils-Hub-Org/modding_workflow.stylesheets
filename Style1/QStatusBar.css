@@ -1,22 +1,22 @@
 QStatusBar {
-    background-color: #2e2e2e;   /* Dark gray background */
-    border-top: 1px solid #5b5e60; /* Light gray top border for separation */
-    color: #ffffff;              /* White text */
-    font-size: 13px;             /* Slightly smaller font for the status bar */
-    padding: 6px;                /* Padding inside the status bar */
+    background-color: #2e2e2e;
+    border-top: 1px solid #5b5e60;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 6px;
 }
 
 QStatusBar::item {
-    border: none;                /* No border around individual status items */
-    padding: 0px 5px;            /* Padding between status bar items */
+    border: none;
+    padding: 0px 5px;
 }
 
 QStatusBar QLabel {
-    color: #ffffff;              /* White text for any QLabel inside the status bar */
-    background-color: transparent; /* Ensure QLabel in status bar matches the bar's background */
+    color: #ffffff;
+    background-color: transparent;
 }
 
 QStatusBar::indicator {
-    background-color: #4a90e2;   /* Optional indicator styling, e.g., for icons or status signals */
-    border-radius: 4px;          /* Rounded corners for any indicator elements */
+    background-color: #4a90e2;
+    border-radius: 4px;
 }

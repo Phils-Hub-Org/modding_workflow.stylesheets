@@ -1,9 +1,9 @@
 QToolTip {
-    background-color: #2e2e2e;   /* Dark gray background */
-    color: #ffffff;              /* White text */
-    border: 1px solid #5b5e60;   /* Light gray border */
-    padding: 4px;                /* Padding for the tooltip */
-    border-radius: 4px;          /* Rounded corners */
-    opacity: 200;                /* Slight transparency */
-    font-size: 12px;             /* Slightly smaller font size for readability */
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #5b5e60;
+    padding: 4px;
+    border-radius: 4px;
+    opacity: 200;
+    font-size: 12px;
 }

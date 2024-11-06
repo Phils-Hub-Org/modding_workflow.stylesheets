@@ -1,9 +1,9 @@
 QTabWidget::pane {
-    background-color: #2e2e2e;      /* Dark gray background */
-    border: 1px solid #5b5e60;      /* Light gray border around the pane */
-    padding: 4px;                   /* Padding inside the pane */
+    background-color: #2e2e2e;
+    border: 1px solid #5b5e60;
+    padding: 4px;
 }
 
 QTabWidget::tab-bar {
-    left: 0px;                      /* Space from the left */
+    left: 0px;
 }

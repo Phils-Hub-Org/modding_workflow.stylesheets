@@ -1,54 +1,42 @@
 QCheckBox {
-    color: #ffffff;                 /* White text for checkbox label */
-    spacing: 6px;                   /* Space between checkbox and label */
+    color: #ffffff;
+    spacing: 6px;
 }
 
 QCheckBox::indicator {
-    width: 14px;                    /* Set the size of the checkbox */
+    width: 14px;
     height: 14px;
-    background-color: #2e2e2e;      /* Dark gray background for the checkbox */
-    border: 1px solid #5b5e60;      /* Light gray border */
-    border-radius: 2px;             /* Slight rounding for modern look */
+    background-color: #2e2e2e;
+    border: 1px solid #5b5e60;
+    border-radius: 2px;
 }
 
-/* Hovered checkbox */
 QCheckBox::indicator:hover {
-    background-color: #3b73b4;      /* Light blue on hover */
-    border-color: #0dce1d;          /* Darker blue border on hover */
+    background-color: #3b73b4;
+    border-color: #0dce1d;
 }
 
-/*
-red: ff050d
-green: 0dce1d
-*/
-
-/* Checked checkbox */
 QCheckBox::indicator:checked {
-    background-color: #4a90e2;      /* Light blue when checked */
-    border-color: #3d78b2;          /* Darker blue border when checked */
-/*    image: url(:/checked-icon.png);  Replace with your checkmark icon if needed */
+    background-color: #4a90e2;
+    border-color: #3d78b2;
 }
 
 QCheckBox::indicator:checked:hover {
     border-color: #ff050d;
 }
 
-/* Indeterminate checkbox (for tri-state checkboxes) */
 QCheckBox::indicator:indeterminate {
-    background-color: #4a90e2;      /* Light blue when in indeterminate state */
-    border-color: #3d78b2;          /* Darker blue border */
-/*    image: url(:/indeterminate-icon.png);  Replace with your indeterminate icon */
+    background-color: #4a90e2;
+    border-color: #3d78b2;
 }
 
-/* Pressed checkbox */
 QCheckBox::indicator:pressed {
-    background-color: #3d78b2;      /* Darker blue on press */
-    border-color: #2a5f92;          /* Even darker border when pressed */
+    background-color: #3d78b2;
+    border-color: #2a5f92;
 }
 
-/* Disabled checkbox */
 QCheckBox::indicator:disabled {
-    background-color: #2e2e2e;      /* Dark gray when disabled */
-    border-color: #5b5e60;          /* Light gray border */
-    color: #777777;                 /* Light gray label when disabled */
+    background-color: #2e2e2e;
+    border-color: #5b5e60;
+    color: #777777;
 }

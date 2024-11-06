@@ -1,42 +1,37 @@
 QTabBar::tab {
-    background-color: #3c3f41;      /* Dark gray background for tabs */
-    color: #ffffff;                 /* White text for tabs */
-    border-left: 1px solid #5b5e60;      /* Light gray border around tabs */
+    background-color: #3c3f41;
+    color: #ffffff;
+    border-left: 1px solid #5b5e60;
     border-top: 1px solid #5b5e60;
     border-right: 1px solid #5b5e60;
-    padding: 4px 8px;              /* Padding for each tab */
-    margin-left: 2px;                    /* Slight margin between tabs */
+    padding: 4px 8px;
+    margin-left: 2px;
     margin-right: 2px;
-    border-top-left-radius: 4px;    /* Rounded top corners */
-    border-top-right-radius: 4px;   /* Rounded top corners */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 QTabBar::tab:selected {
-    background-color: #4a90e2;      /* Light blue background for selected tab */
-    color: #ffffff;                 /* White text for selected tab */
-    border-color: #4a90e2;          /* Blue border for selected tab */
+    background-color: #4a90e2;
+    color: #ffffff;
+    border-color: #4a90e2;
 }
 
 QTabBar::tab:hover {
-    background-color: #3d78b2;      /* Darker blue on hover */
-    color: #ffffff;                 /* White text */
+    background-color: #3d78b2;
+    color: #ffffff;
 }
 
 QTabBar::tab:disabled {
-    background-color: #2e2e2e;      /* Dark gray for disabled tab */
-    color: #777777;                 /* Light gray text for disabled tabs */
+    background-color: #2e2e2e;
+    color: #777777;
 }
 
 QTabBar::tab:focus {
-    border: 1px solid #4a90e2;      /* Blue border when tab is focused */
+    border: 1px solid #4a90e2;
 }
 
 QTabBar::close-button {
-    /* image: url(close-icon.png);     Replace with your close icon path */
-    subcontrol-position: right;     /* Position the close button on the right */
-    margin: 0 8px 0 0;              /* Spacing for the close button */
+    subcontrol-position: right;
+    margin: 0 8px 0 0;
 }
-/*
-QTabBar::close-button:hover {
-    image: url(close-icon-hover.png);   Change icon on hover 
-}*/
