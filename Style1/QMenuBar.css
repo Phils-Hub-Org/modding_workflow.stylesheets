@@ -1,21 +1,21 @@
 QMenuBar {
     background-color: #2e2e2e;
-    color: #ffffff;
+    color: #fff;
     border-bottom: 1px solid #5b5e60;
 }
 
 QMenuBar::item {
     background-color: transparent;
     padding: 6px 6px;
-    color: #ffffff;
+    color: #fff;
 }
 
 QMenuBar::item:selected {
     background-color: #4a90e2;
-    color: #ffffff;
+    color: #fff;
 }
 
 QMenuBar::item:pressed {
     background-color: #3d78b2;
-    color: #ffffff;
+    color: #fff;
 }

@@ -1,24 +1,24 @@
 QListWidget {
     background-color: #2e2e2e;
-    color: #ffffff;
+    color: #fff;
     border: 1px solid #5b5e60;
     padding: 4px;
 }
 
 QListWidget::item {
     background-color: transparent;
-    color: #ffffff;
+    color: #fff;
     border: none;
 }
 
 QListWidget::item:selected {
     background-color: #4a90e2;
-    color: #ffffff;
+    color: #fff;
 }
 
 QListWidget::item:hover {
     background-color: #3d78b2;
-    color: #ffffff;
+    color: #fff;
 }
 
 QListWidget::item:focus {

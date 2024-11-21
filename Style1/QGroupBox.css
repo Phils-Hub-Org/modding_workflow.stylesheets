@@ -4,7 +4,7 @@ QGroupBox {
     border-radius: 4px;
     margin-top: 15px;
     padding-top: 0px;
-    color: #ffffff;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -13,7 +13,7 @@ QGroupBox::title {
     subcontrol-position: top left;
     background-color: transparent;
     padding: 0 5px;
-    color: #ffffff;
+    color: #fff;
 }
 
 QGroupBox::title:hover {

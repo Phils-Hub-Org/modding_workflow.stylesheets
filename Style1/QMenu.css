@@ -5,19 +5,19 @@ QMenu {
 
 QMenu::item {
     background-color: transparent;
-    color: #ffffff;
+    color: #fff;
     padding: 6px;
     margin-left: 6px;
 }
 
 QMenu::item:selected {
     background-color: #4a90e2;
-    color: #ffffff;
+    color: #fff;
 }
 
 QMenu::item:pressed {
     background-color: #3d78b2;
-    color: #ffffff;
+    color: #fff;
 }
 
 QMenu::separator {

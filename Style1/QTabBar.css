@@ -1,6 +1,6 @@
 QTabBar::tab {
     background-color: #3c3f41;
-    color: #ffffff;
+    color: #fff;
     border-left: 1px solid #5b5e60;
     border-top: 1px solid #5b5e60;
     border-right: 1px solid #5b5e60;
@@ -13,13 +13,13 @@ QTabBar::tab {
 
 QTabBar::tab:selected {
     background-color: #4a90e2;
-    color: #ffffff;
+    color: #fff;
     border-color: #4a90e2;
 }
 
 QTabBar::tab:hover {
     background-color: #3d78b2;
-    color: #ffffff;
+    color: #fff;
 }
 
 QTabBar::tab:disabled {
