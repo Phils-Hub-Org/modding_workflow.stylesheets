@@ -1,6 +1,6 @@
 QRadioButton {
     color: #fff;
-    spacing: 5px;
+    spacing: 6px;
 }
 
 QRadioButton::indicator {
@@ -8,12 +8,12 @@ QRadioButton::indicator {
     height: 14px;
     background-color: #2e2e2e;
     border: 1px solid #5b5e60;
-    border-radius: 8px;
+    border-radius: 7px;
 }
 
 QRadioButton::indicator:hover {
-    background-color: #4a90e2;
-    border-color: #3d78b2;
+    background-color: #3b73b4;
+    border-color: #0dce1d;
 }
 
 QRadioButton::indicator:checked {
@@ -21,12 +21,17 @@ QRadioButton::indicator:checked {
     border-color: #3d78b2;
 }
 
+QRadioButton::indicator:checked:hover {
+    border-color: #ff050d;
+}
+
 QRadioButton::indicator:pressed {
     background-color: #3d78b2;
     border-color: #2a5f92;
 }
 
-QRadioButton::indicator:checked:pressed {
-    background-color: #3d78b2;
-    border-color: #2a5f92;
+QRadioButton::indicator:disabled {
+    background-color: #2e2e2e;
+    border-color: #5b5e60;
+    color: #777;
 }
