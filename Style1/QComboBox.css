@@ -12,7 +12,7 @@ QComboBox:hover {
 }
 
 QComboBox:focus {
-    background-color: #333333;
+    background-color: #333;
     border-color: #4a90e2;
 }
 
