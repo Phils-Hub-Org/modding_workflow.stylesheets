@@ -24,7 +24,7 @@ QTabBar::tab:hover {
 
 QTabBar::tab:disabled {
     background-color: #2e2e2e;
-    color: #777777;
+    color: #777;
 }
 
 QTabBar::tab:focus {

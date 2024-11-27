@@ -25,6 +25,6 @@ QGroupBox:flat {
 }
 
 QGroupBox:disabled {
-    color: #777777;
+    color: #777;
     border-color: #5b5e60;
 }

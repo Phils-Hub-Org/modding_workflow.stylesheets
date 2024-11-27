@@ -23,7 +23,7 @@ QToolButton:checked {
 
 QToolButton:disabled {
     background-color: #2e2e2e;
-    color: #777777;
+    color: #777;
     border-color: #5b5e60;
 }
 
