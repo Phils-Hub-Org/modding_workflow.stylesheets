@@ -1,0 +1,727 @@
+/* Festive Christmas Wonderland Stylesheet */
+
+/* Global Font and Color Palette */
+* {
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+}
+
+/* QCheckBox - Candy Cane Style */
+QCheckBox {
+    color: #E0FFFF; /* Ice Blue */
+    spacing: 8px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    background-color: #FFFFFF; /* Snowy White */
+    border: 3px solid #C41E3A; /* Christmas Red */
+    border-radius: 6px;
+    background-image: url('candy-cane-pattern.png');
+}
+
+QCheckBox::indicator:checked {
+    background-color: #008000; /* Christmas Green */
+    border-color: #FFD700; /* Golden Ornament */
+}
+
+/* QComboBox - Wrapped Gift Style */
+QComboBox {
+    color: #FFFAFA; /* Snow White */
+    background-color: #8B4513; /* Gingerbread Brown */
+    padding: 6px;
+    border: 3px dashed #C41E3A; /* Ribbon-like Border */
+    border-radius: 10px;
+}
+
+QComboBox::drop-down {
+    background-color: #006400; /* Dark Green */
+    border-left: 2px solid #FFD700; /* Golden Trim */
+}
+
+QComboBox QAbstractItemView {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA;
+    selection-background-color: #C41E3A; /* Santa's Suit Red */
+}
+
+/* QFrame - Wrapped Present Style */
+QFrame {
+    background-color: #8B0000; /* Deep Red */
+    border: 5px solid #FFD700; /* Golden Ribbon */
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* QGroupBox - Christmas Tree Style */
+QGroupBox {
+    background-color: #006400; /* Dark Green */
+    border: 3px solid #8B4513; /* Tree Trunk Brown */
+    border-radius: 12px;
+    margin-top: 20px;
+    color: #FFFAFA; /* Snow White */
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    background-color: #C41E3A; /* Ornament Red */
+    color: #FFFAFA;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+/* QLabel - Christmas Card Style */
+QLabel {
+    color: #FFFAFA; /* Snow White */
+    background-color: #8B4513; /* Gingerbread Brown */
+    border: 3px dotted #C41E3A; /* Festive Border */
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* QLineEdit - Snow Drift Style */
+QLineEdit {
+    background-color: #FFFAFA; /* Snow White */
+    color: #000000;
+    border: 2px solid #87CEEB; /* Sky Blue */
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QLineEdit:focus {
+    border-color: #FFD700; /* Golden Highlight */
+    background-color: #E0FFFF; /* Light Ice Blue */
+}
+
+/* QListWidget - Christmas Ornament Style */
+QListWidget {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA;
+    border: 4px groove #C41E3A; /* Festive Border */
+    border-radius: 12px;
+    padding: 8px;
+}
+
+QListWidget::item {
+    background-color: #8B4513; /* Gingerbread Brown */
+    color: #FFFAFA;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 2px;
+}
+
+QListWidget::item:selected {
+    background-color: #FFD700; /* Golden Ornament */
+    color: #000000;
+}
+
+/* Additional Festive Touches */
+QToolTip {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    color: #FFFAFA;
+    border: 2px solid #FFD700; /* Golden Trim */
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* QMenuBar */
+QMenuBar {
+    background-color: #8B4513; /* Gingerbread Brown */
+    color: #FFFAFA;
+    border-bottom: 2px solid #C41E3A; /* Festive Border */
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 6px 6px;
+    color: #FFFAFA;
+}
+
+QMenuBar::item:selected {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    color: #FFFAFA;
+}
+
+QMenuBar::item:pressed {
+    background-color: #8B0000; /* Deep Red */
+    color: #FFFAFA;
+}
+
+/* QMenu */
+QMenu {
+    background-color: #228B22; /* Forest Green */
+    border: 2px solid #C41E3A; /* Festive Border */
+}
+
+QMenu::item {
+    background-color: transparent;
+    color: #FFFAFA;
+    padding: 6px;
+    margin-left: 6px;
+}
+
+QMenu::item:selected {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    color: #FFFAFA;
+}
+
+QMenu::item:pressed {
+    background-color: #8B0000; /* Deep Red */
+    color: #FFFAFA;
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: #C41E3A; /* Festive Border */
+}
+
+QMenu::indicator {
+    width: 16px;
+    height: 16px;
+    background-color: #8B4513; /* Gingerbread Brown */
+    border: 2px solid #C41E3A; /* Festive Border */
+    border-radius: 2px;
+}
+
+QMenu::indicator:checked {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    border-color: #8B0000; /* Deep Red */
+}
+
+QMenu::indicator:unchecked {
+    background-color: transparent;
+}
+
+/* QProgressBar */
+QProgressBar {
+    background-color: #228B22; /* Forest Green */
+    border: 2px solid #C41E3A; /* Festive Border */
+    border-radius: 4px;
+    text-align: center;
+    color: #FFFAFA;
+    padding: 1px;
+}
+
+QProgressBar::chunk {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    border-radius: 3px;
+}
+
+QProgressBar::chunk:hover {
+    background-color: #8B0000; /* Deep Red */
+}
+
+/* For determinate progress bars */
+QProgressBar:horizontal {
+    height: 20px;
+    min-width: 100px;
+}
+
+QProgressBar:vertical {
+    width: 20px;
+    min-height: 100px;
+}
+
+/* For indeterminate progress bars */
+QProgressBar:horizontal:indeterminate {
+    text-align: right;
+}
+
+QProgressBar::chunk:horizontal:indeterminate {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                stop:0 #228B22,
+                                stop:0.4 #C41E3A,
+                                stop:0.8 #FFD700);
+    width: 40px;
+    margin: 0.5px;
+}
+
+/* QScrollArea */
+QScrollArea {
+    background-color: #228B22; /* Forest Green */
+    border: 2px solid #C41E3A; /* Festive Border */
+    border-radius: 4px;
+    padding: 5px;
+}
+
+QScrollArea QWidget {
+    background-color: #228B22; /* Forest Green */
+}
+
+QScrollArea > QWidget {
+    background-color: #228B22; /* Forest Green */
+}
+
+QScrollArea::corner {
+    background-color: #228B22; /* Forest Green */
+}
+
+/* QScrollBar */
+QScrollBar:vertical {
+    background: #8B4513; /* Gingerbread Brown */
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background: #228B22; /* Forest Green */
+    min-height: 15px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #C41E3A; /* Santa's Suit Red */
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    border: none;
+    width: 0;
+    height: 0;
+    background: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+/* QStatusBar */
+QStatusBar {
+    background-color: #228B22; /* Forest Green */
+    border-top: 2px solid #C41E3A; /* Festive Border */
+    color: #FFFAFA;
+    font-size: 13px;
+    padding: 6px;
+}
+
+QStatusBar::item {
+    border: none;
+    padding: 0px 5px;
+}
+
+QStatusBar QLabel {
+    color: #FFFAFA;
+    background-color: transparent;
+}
+
+QStatusBar::indicator {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    border-radius: 4px;
+}
+
+/* QTabBar */
+QTabBar::tab {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA;
+    border-left: 2px solid #C41E3A; /* Festive Border */
+    border-top: 2px solid #C41E3A; /* Festive Border */
+    border-right: 2px solid #C41E3A; /* Festive Border */
+    padding: 4px 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QTabBar::tab:selected {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    color: #FFFAFA;
+    border-color: #C41E3A; /* Festive Border */
+}
+
+QTabBar::tab:hover {
+    background-color: #8B0000; /* Deep Red */
+    color: #FFFAFA;
+}
+
+QTabBar::tab:disabled {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA;
+}
+
+QTabBar::tab:focus {
+    border: 2px solid #C41E3A; /* Festive Border */
+}
+
+QTabBar::close-button {
+    subcontrol-position: right;
+    margin: 0 8px 0 0;
+}
+
+/* QTabWidget */
+QTabWidget::pane {
+    background-color: #228B22; /* Forest Green */
+    border: 2px solid #C41E3A; /* Festive Border */
+    padding: 4px;
+}
+
+QTabWidget::tab-bar {
+    left: 0px;
+}
+
+/* QToolBar */
+QToolBar {
+    background-color: #228B22; /* Forest Green */
+    border: 2px solid #C41E3A; /* Festive Border */
+    padding: 4px;
+    spacing: 4px;
+}
+
+QToolBar::handle {
+    background-color: #8B4513; /* Gingerbread Brown */
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+}
+
+QToolBar::separator {
+    background-color: #C41E3A; /* Festive Border */
+    width: 1px;
+    height: 24px;
+    margin: 6px;
+}
+
+QToolBar::item {
+    padding: 4px;
+}
+
+/* QToolButton */
+QToolButton {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA;
+    border: 2px solid #C41E3A; /* Festive Border */
+    border-radius: 4px;
+    padding: 0px 0px;
+}
+
+QToolButton:hover {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    border-color: #8B0000; /* Deep Red */
+}
+
+QToolButton:pressed {
+    background-color: #8B0000; /* Deep Red */
+    border-color: #C41E3A; /* Festive Border */
+}
+
+QToolButton:checked {
+    background-color: #8B0000; /* Deep Red */
+    border-color: #C41E3A; /* Festive Border */
+    color: #FFFAFA; /* Snow White */
+}
+
+QToolButton:disabled {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA;
+    border-color: #C41E3A; /* Festive Border */
+}
+
+QToolButton::menu-button {
+    background-color: #228B22; /* Forest Green */
+    border: 2px solid #C41E3A; /* Festive Border */
+    padding: 4px;
+}
+
+QToolButton::menu-button:hover {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    border-color: #8B0000; /* Deep Red */
+}
+
+QToolButton::menu-button:pressed {
+    background-color: #8B0000; /* Deep Red */
+    border-color: #C41E3A; /* Festive Border */
+}
+
+/* Add missing widgets */
+
+/* QRadioButton */
+QRadioButton {
+    color: #FFFAFA; /* Snow White */
+    spacing: 6px;
+}
+
+QRadioButton::indicator {
+    width: 14px;
+    height: 14px;
+    background-color: #8B0000; /* Deep Red */
+    border: 2px solid #C41E3A; /* Festive Border */
+    border-radius: 7px;
+}
+
+QRadioButton::indicator:hover {
+    background-color: #FFD700; /* Golden Ornament */
+    border-color: #FFA07A; /* Light Salmon */
+}
+
+QRadioButton::indicator:checked {
+    background-color: #008000; /* Christmas Green */
+    border-color: #FFD700; /* Golden Ornament */
+}
+
+QRadioButton::indicator:checked:hover {
+    border-color: #C41E3A; /* Santa's Suit Red */
+}
+
+QRadioButton::indicator:pressed {
+    background-color: #8B0000; /* Deep Red */
+    border-color: #C41E3A; /* Festive Border */
+}
+
+QRadioButton::indicator:disabled {
+    background-color: #228B22; /* Forest Green */
+    border-color: #C41E3A; /* Festive Border */
+    color: #FFFAFA; /* Snow White */
+}
+
+/* QPlainTextEdit */
+QPlainTextEdit {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA; /* Snow White */
+    border: 2px solid #C41E3A; /* Festive Border */
+    border-radius: 8px;
+    padding: 5px;
+}
+
+QPlainTextEdit:focus {
+    border-color: #FFD700; /* Golden Ornament */
+    background-color: #006400; /* Dark Green */
+}
+
+/* QPushButton */
+QPushButton {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA; /* Snow White */
+    border: 2px solid #C41E3A; /* Festive Border */
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    border-color: #8B0000; /* Deep Red */
+}
+
+QPushButton:pressed {
+    background-color: #8B0000; /* Deep Red */
+    border-color: #C41E3A; /* Festive Border */
+}
+
+QPushButton:checked {
+    background-color: #8B0000; /* Deep Red */
+    border-color: #C41E3A; /* Festive Border */
+    color: #FFFAFA; /* Snow White */
+}
+
+/* QMenu */
+QMenu {
+    background-color: #228B22; /* Forest Green */
+    border: 2px solid #C41E3A; /* Festive Border */
+    color: #FFFAFA; /* Snow White */
+}
+
+QMenu::item {
+    background-color: transparent;
+    color: #FFFAFA; /* Snow White */
+    padding: 6px;
+    margin-left: 6px;
+}
+
+QMenu::item:selected {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    color: #FFFAFA; /* Snow White */
+}
+
+QMenu::item:pressed {
+    background-color: #8B0000; /* Deep Red */
+    color: #FFFAFA; /* Snow White */
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: #C41E3A; /* Festive Border */
+}
+
+/* QMenuBar */
+QMenuBar {
+    background-color: #8B4513; /* Gingerbread Brown */
+    color: #FFFAFA; /* Snow White */
+    border-bottom: 2px solid #C41E3A; /* Festive Border */
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 6px 6px;
+    color: #FFFAFA; /* Snow White */
+}
+
+QMenuBar::item:selected {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    color: #FFFAFA; /* Snow White */
+}
+
+QMenuBar::item:pressed {
+    background-color: #8B0000; /* Deep Red */
+    color: #FFFAFA; /* Snow White */
+}
+
+/* QProgressBar */
+QProgressBar {
+    background-color: #228B22; /* Forest Green */
+    border: 2px solid #C41E3A; /* Festive Border */
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFAFA; /* Snow White */
+    padding: 1px;
+}
+
+QProgressBar::chunk {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    border-radius: 6px;
+}
+
+QProgressBar::chunk:hover {
+    background-color: #8B0000; /* Deep Red */
+}
+
+/* QScrollArea */
+QScrollArea {
+    background-color: #228B22; /* Forest Green */
+    border: 2px solid #C41E3A; /* Festive Border */
+    border-radius: 8px;
+    padding: 5px;
+}
+
+QScrollArea QWidget, QScrollArea > QWidget {
+    background-color: #228B22; /* Forest Green */
+}
+
+QScrollArea::corner {
+    background-color: #228B22; /* Forest Green */
+}
+
+/* QScrollBar */
+QScrollBar:vertical {
+    background: #8B4513; /* Gingerbread Brown */
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background: #228B22; /* Forest Green */
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #C41E3A; /* Santa's Suit Red */
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
+
+/* QStatusBar */
+QStatusBar {
+    background-color: #228B22; /* Forest Green */
+    border-top: 2px solid #C41E3A; /* Festive Border */
+    color: #FFFAFA; /* Snow White */
+    font-size: 13px;
+    padding: 6px;
+}
+
+QStatusBar::item {
+    border: none;
+    padding: 0px 5px;
+}
+
+QStatusBar QLabel {
+    color: #FFFAFA; /* Snow White */
+    background-color: transparent;
+}
+
+QStatusBar::indicator {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    border-radius: 4px;
+}
+
+/* QTabBar */
+QTabBar::tab {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA; /* Snow White */
+    border: 2px solid #C41E3A; /* Festive Border */
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 8px;
+}
+
+QTabBar::tab:selected {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    color: #FFFAFA; /* Snow White */
+}
+
+QTabBar::tab:hover {
+    background-color: #8B0000; /* Deep Red */
+    color: #FFFAFA; /* Snow White */
+}
+
+QTabBar::tab:disabled {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA; /* Snow White */
+    opacity: 0.5;
+}
+
+/* QToolBar */
+QToolBar {
+    background-color: #228B22; /* Forest Green */
+    border: 2px solid #C41E3A; /* Festive Border */
+    padding: 5px;
+    spacing: 5px;
+}
+
+QToolBar::handle {
+    background-color: #8B4513; /* Gingerbread Brown */
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+}
+
+QToolBar::separator {
+    background-color: #C41E3A; /* Festive Border */
+    width: 2px;
+    height: 24px;
+    margin: 6px;
+}
+
+/* QToolButton */
+QToolButton {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA; /* Snow White */
+    border: 2px solid #C41E3A; /* Festive Border */
+    border-radius: 8px;
+    padding: 5px;
+}
+
+QToolButton:hover {
+    background-color: #C41E3A; /* Santa's Suit Red */
+    border-color: #8B0000; /* Deep Red */
+}
+
+QToolButton:pressed {
+    background-color: #8B0000; /* Deep Red */
+    border-color: #C41E3A; /* Festive Border */
+}
+
+QToolButton:checked {
+    background-color: #8B0000; /* Deep Red */
+    border-color: #C41E3A; /* Festive Border */
+}
+
+QToolButton:disabled {
+    background-color: #228B22; /* Forest Green */
+    color: #FFFAFA; /* Snow White */
+    opacity: 0.5;
+}
